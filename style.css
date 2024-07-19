@@ -1,7 +1,12 @@
 body {
     margin: 0;
     font-family: Roboto;
-    padding: 50px 200px
+    background-color: #F9FAF8;
+}
+
+.background {
+    background-color: #1F2937;
+    padding: 20px;
 }
 
 .header {
@@ -10,19 +15,24 @@ body {
     justify-content: space-between;
     align-items: baseline;
     gap: 30px;
-    
+    margin-left: 300px;
+    margin-right: 200px;
 }
 
 .logo {
     margin-right: auto;
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 800;
 }
 
 .main {
     background-color: #1F2937;
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 100px;
 }
 
 a {
@@ -35,6 +45,9 @@ button {
     background-color: #3882F6;
     color: #E5E7EB;
     max-width: 80px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
 }
 
 h1 {
@@ -44,7 +57,7 @@ h1 {
     margin: 0;
 }
 
-p {
+.text {
     color: #E5E7EB;
     font-size: 18px;
     margin: 0;
@@ -53,12 +66,96 @@ p {
 .main-left {
     display: flex;
     flex-direction: column;
+    width: 600px;
+    gap: 10px;
 }
 
 .image {
-    width: 200px;
-    height: 100px;
+    width: 500px;
+    height: 250px;
     background-color: rgba(109, 116, 125);
     color: #E5E7EB;
     align-content: center;
+    text-align: center;
+}
+
+.information {
+    font-size: 38px;
+    color:  #1F2937;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.border {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.bigcont {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding: 80px;
+}
+
+.container {
+    width: 100px;    
+}
+
+.textinfo {
+    text-align: center;
+    width: 200px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    text-align: center;
+    padding: 200px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.author {
+    margin: 0;
+    text-align: end;
+    font-style: bold;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.end {
+    display: flex;
+    background-color: white;
+    height: 150px;
+    padding: 150px;
+}
+
+.contend {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-grow: 1;
+    border-radius: 10px;
+    padding: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.headline {
+    font-size: 28px;
+    color: #F9FAF8;
+}
+
+.buttonend {
+    display: flex;
+    justify-content: center;
+    border: 3px solid white;
+    padding: 10px 40px;
+    white-space: nowrap;
 }
